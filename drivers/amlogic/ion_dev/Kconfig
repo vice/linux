@@ -1,7 +1,7 @@
 menu "ION support"
 
 config AMLOGIC_ION
-	tristate "ION memeory management support"
+	tristate "ION memory management support"
 	select ION
 	select ARM_HAS_SG_CHAIN
 	select ARM64_HAS_SG_CHAIN
